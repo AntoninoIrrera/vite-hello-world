@@ -1,10 +1,12 @@
 <script >
-import AppTitle from './components/AppTitle.vue'
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
 
 export default {
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 }
 
@@ -13,6 +15,7 @@ export default {
 <template>
   <div>
     <AppTitle/>
+    <AppHero/>
   </div>
 </template>
 
@@ -20,6 +23,5 @@ export default {
   div{
     text-align: center;
     margin-top: 2.5rem;
-    border: 1px solid black;
   }
 </style>
